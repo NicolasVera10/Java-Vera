@@ -1,16 +1,19 @@
-let carritoCompras = Number(prompt("Bienvenido al carrito de compras. ¿Qué producto desea comprar? (1 - Playstation5 - 2 Xbox Series X - 3 Nintendo Switch"))
+let articulo1 = Number(prompt("Bienvenido al carrito de compras. ¿Qué producto desea comprar? ( 1 - Playstation5 - 2 Xbox Series X - 3 Nintendo Switch)"))
 
-if(carritoCompras == 1){
+if(articulo1 == 1){
 
-    alert("Elegiste Playstation 5")
+    precio = "$10.000"
+    alert("Playstation 5 " + precio)
 }
-else if(carritoCompras ==2){
+else if(articulo1 ==2){
 
-    alert("Elegiste Xbox Series X")
+    precio = "$15.000"
+    alert("Xbox Series X " + precio)
 }
-else if(carritoCompras ==3){
+else if(articulo1 ==3){
 
-    alert("Elegiste Nintendo Switch")
+    precio = "$8.000"
+    alert("Nintendo Switch " + precio)
 }
 else{
 
